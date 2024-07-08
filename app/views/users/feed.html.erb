@@ -1,4 +1,4 @@
 <%= render partial: "users/navbar"%>
-<% @users.feed.each do |post| %>
-  <%= render "photos/photo", photo: post %>
+<% @user.feed.each do |photo| %>
+  <%= render "photos/photo", photo: photo %>
 <% end %>
